@@ -4,15 +4,15 @@
  * Based on the 'black' theme by Hakim El Hattab, http://hakim.se
  */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,600);
-section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+.has-light-background .reveal, .has-light-background .reveal h1, .has-light-background .reveal h2, .has-light-background .reveal h3, .has-light-background .reveal h4, .has-light-background .reveal h5, .has-light-background .reveal h6 {
   color: #000; }
 
-.reveal .fancy-title h1,
-.reveal .fancy-title h2 {
+.reveal h1.fancy-title,
+.reveal h2.fancy-title {
   padding-bottom: 0.4em;
   position: relative; }
-  .reveal .fancy-title h1:after,
-  .reveal .fancy-title h2:after {
+  .reveal h1.fancy-title:after,
+  .reveal h2.fancy-title:after {
     content: '';
     display: block;
     position: absolute;
